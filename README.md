@@ -37,7 +37,8 @@ Functions were created to perform tasks including
 ## Using the program
 To use the program I have run the python file using [Visual Studio Code](https://code.visualstudio.com).
 When running, the following image should be seen at start.
-![Screenshot of start menu]()
+
+![Screenshot of start menu](/images/start_screen.png)
 
 
 If the previous table was not closed correctly, a message saying:
@@ -55,7 +56,8 @@ Should be displayed. The program should then start as normal.
 
 ### Adding a new book to the inventory
 To add a new book to the inventory, the user should select option 1 from the start menu. Then the user enters the **Book Title**, the **Author** and the **Quantity in Stock** (*using numerals*) as shown in the screenshot below.
-![Screenshot of new book screen]()
+
+![Screenshot of new book screen](/images/new_book.png)
 
 The user then is asked to confirm the details when shown a summary with a Y/N option. If the user chooses "Y" the new book is added to the database, otherwise the changes are discarded.
 
