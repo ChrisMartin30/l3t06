@@ -50,7 +50,7 @@ Deleting previous table
 
 Should be displayed. The program should then start as normal.
 
-To prevent seeing this message, the user should __always__ exit the program through use of the exit option, rather than a keyboard interrupt.
+<a name="always_exit"></a>To prevent seeing this message, the user should __always__ exit the program through use of the exit option, rather than a keyboard interrupt.
 
 
 ### Adding a new book to the inventory
@@ -78,4 +78,7 @@ The user can also choose to display the entire inventory.
 
 ## Exiting the program
 If the user wants to exit the program the user should select option 0 from the start menu. It is important to do this, as it will commit changes to the database and close it in a suitable manner.
-If this is not done, changes may not be saved and there may be the issues mentioned earlier when opening the program subsequently.
+If this is not done, changes may not be saved and there may be the issues mentioned [earlier](#always_exit) when opening the program subsequently.
+
+## Credits
+This task was done thanks to the guidance provided by HyperionDev.
